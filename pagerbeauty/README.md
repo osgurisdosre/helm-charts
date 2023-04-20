@@ -36,7 +36,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | Parameter                                 | Description                                   | Default                                                 |
 |-------------------------------------------|-----------------------------------------------|---------------------------------------------------------|
 | `image.repository`                        | Image repository                              | `sergiitk/pagerbeauty`                                       |
-| `image.tag`                               | Overrides the Grafana image tag whose default is the chart appVersion  | `latest`                                                      |
+| `image.tag`                               | Overrides the PagerBeauty image tag whose default is the chart appVersion  | `latest`                                                      |
 | `image.pullPolicy`                        | Image pull policy                             | `IfNotPresent`                                          |
 | `service.type`                            | Kubernetes service type                       | `ClusterIP`                                             |
 | `service.port`                            | Kubernetes port where service is exposed      | `80`                                                    |
