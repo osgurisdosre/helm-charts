@@ -21,7 +21,7 @@ jobs:
         uses: helm/chart-testing-action@v2.0.1
 
       - name: Validate PR
-        run: scripts/validate-pr.sh
+        run: ../scripts/validate-pr.sh
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
 
