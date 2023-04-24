@@ -9,6 +9,6 @@ entries:
     name: pagerbeauty
     type: application
     urls:
-    - https://osgurisdosre.github.io/helm-charts/pagerbeauty-0.1.0.tgz
+    - https://github.com/osgurisdosre/helm-charts/releases/download/pagerbeauty-0.1.0/pagerbeauty-0.1.0.tgz
     version: 0.1.0
 generated: "2023-04-24T08:44:03.714506597-03:00"
