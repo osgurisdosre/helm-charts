@@ -8,6 +8,10 @@ on:
     branches:
       - main
 
+permissions:
+  checks: write
+  contents: write
+
 jobs:
   lint-test:
     runs-on: ubuntu-latest
