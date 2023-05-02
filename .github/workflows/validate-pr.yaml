@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Validates the pull request
-        uses: Namchee/conventional-pr@main
+        uses: Namchee/conventional-pr@latest
         with:
           access_token: "${{ secrets.REPO_TOKEN}}"
