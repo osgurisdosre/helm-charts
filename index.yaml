@@ -11,6 +11,17 @@ entries:
     urls:
     - https://github.com/osgurisdosre/helm-charts/releases/download/helm-chart-test-0.1.0/helm-chart-test-0.1.0.tgz
     version: 0.1.0
+  mongoshake-prometheus-exporter:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-15T20:30:06.888402799Z"
+    description: A Helm chart for Kubernetes
+    digest: 759f1997b0862de43efdf81df3c24f78f8dd371d3c09eae6aa15bb3c4fb786cf
+    name: mongoshake-prometheus-exporter
+    type: application
+    urls:
+    - https://github.com/osgurisdosre/helm-charts/releases/download/mongoshake-prometheus-exporter-1.0.0/mongoshake-prometheus-exporter-1.0.0.tgz
+    version: 1.0.0
   pagerbeauty:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -22,4 +33,4 @@ entries:
     urls:
     - https://github.com/osgurisdosre/helm-charts/releases/download/pagerbeauty-0.1.0/pagerbeauty-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-25T18:41:56.721282782Z"
+generated: "2024-02-15T20:30:06.888409652Z"
