@@ -59,7 +59,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | `serviceAccount.annotations`              | ServiceAccount annotations                    |                                                         |
 | `serviceAccount.create`                   | Create service account                        | `true`                                                  |
 | `serviceAccount.name`                     | Service account name to use, when empty will be set to created account if `serviceAccount.create` is set else to `default` | `` |
-| `serviceMonitor.enabled`                  | Enables the creation of a service monitor used later for Prometheus discovery. When empty, it will be set to `true`. | `true` |
+| `serviceMonitor.enabled`                  | Enables the creation of a service monitor used later for Prometheus discovery. When empty, it will be set to `false`. | `false` |
                                              
 
 ### Example
