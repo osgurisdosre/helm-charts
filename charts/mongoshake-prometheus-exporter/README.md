@@ -1,3 +1,4 @@
+[![Lint and Test Charts](https://github.com/osgurisdosre/helm-charts/actions/workflows/lint-test.yaml/badge.svg)](https://github.com/osgurisdosre/helm-charts/actions/workflows/lint-test.yaml)
 # MongoShake Prometheus Exporter Helm Chart
 
 * MongoShake Prometheus Exporter is an exporter that adapts MongoShake metrics to the Prometheus format, making it easier for administrators to monitor resources..
